@@ -124,6 +124,7 @@ div.skip a:focus {
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 *:focus {
   border-style: solid;
+  border-color: black;
   border-width: 2px;
 }
 
@@ -148,7 +149,6 @@ first div in the grid and place it in the grid. */
 .about, .method, .clients, .contact {
   grid-column: 2 / span 1;
   grid-row: 2;
-  
 }
     
 .about-image, .method-image, .clients-image, .contact-image {
